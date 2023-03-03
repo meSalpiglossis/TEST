@@ -8,12 +8,13 @@ public class Car implements ICar {
         this.name = name;
     }
 
-    public String getName() {
-        return name;
-    }
-
     public void setName(final String name) {
         this.name = name;
+    }
+
+    @Override
+    public String getName() {
+        return name;
     }
 
     @Override
