@@ -4,6 +4,8 @@ public class Car implements ICar {
 
     private String name;
 
+    private String divider = " ";
+
     public Car(final String name) {
         this.name = name;
     }
@@ -14,16 +16,16 @@ public class Car implements ICar {
 
     @Override
     public String getName() {
-        return name;
+        return this.name;
     }
 
     @Override
     public void drive() {
-        System.out.println(this.name + " " + "drive");
+        System.out.println(this.name + divider + "drive");
     }
 
     @Override
     public void stop() {
-        System.out.println(this.name + " " + "stop");
+        System.out.println(this.name + divider + "stop");
     }
 }
