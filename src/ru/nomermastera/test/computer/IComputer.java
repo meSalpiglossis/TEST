@@ -6,6 +6,8 @@ public interface IComputer {
 
     String getName();
 
+    IMonitor getMonitor();
+
     void On();
 
     void Off();

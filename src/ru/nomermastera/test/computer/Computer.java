@@ -6,10 +6,6 @@ public class Computer implements IComputer{
 
     private Monitor monitor;
 
-    public Monitor getMonitor() {
-        return monitor;
-    }
-
     public void setMonitor(final Monitor monitor) {
         this.monitor = monitor;
     }
@@ -19,6 +15,10 @@ public class Computer implements IComputer{
         this.monitor = monitor;
     }
 
+    @Override
+    public Monitor getMonitor() {
+        return monitor;
+    }
     @Override
     public void setName(final String name) {
         this.name = name;
