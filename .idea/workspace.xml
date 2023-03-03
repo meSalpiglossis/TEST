@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23a25f54-7f21-44d0-967d-8a304536a097" name="Changes" comment="Car retouch">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/nomermastera/test/car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/nomermastera/test/car/Main.java" afterDir="false" />
+    <list default="true" id="23a25f54-7f21-44d0-967d-8a304536a097" name="Changes" comment="retouch">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677818459421</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="retouch">
+      <created>1677818883600</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677818883600</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -168,6 +174,7 @@
     <MESSAGE value="stuff" />
     <MESSAGE value="move to package" />
     <MESSAGE value="Car retouch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Car retouch" />
+    <MESSAGE value="retouch" />
+    <option name="LAST_COMMIT_MESSAGE" value="retouch" />
   </component>
 </project>
