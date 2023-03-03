@@ -1,3 +1,5 @@
+package ru.nomermastera.test.car;
+
 public class Car implements ICar {
 
     private String name;
