@@ -27,10 +27,10 @@ public class Printer {
         System.out.println("На печать отправлен текст \"" + inString + "\", длина: " + lettersAmount);
         if (inkDelta < 0) {
             System.out.println("Не хватило краски в принтере: " + Math.abs(inkDelta) + ". Сейчас краски в принтере: " + this.paintVolume);
-        } else {
-            this.paintVolume = inkDelta;
-            System.out.println("Текст распечатан. Осталось краски: " + this.paintVolume);
+            return;
         }
+        this.paintVolume = inkDelta;
+        System.out.println("Текст распечатан. Осталось краски: " + this.paintVolume);
     }
 
     private int lettersAmount(String string) {
