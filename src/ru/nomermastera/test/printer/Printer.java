@@ -16,10 +16,6 @@ public class Printer {
         return paintVolume;
     }
 
-    public void setPaintVolume(int paintVolume) {
-        this.paintVolume = paintVolume;
-    }
-
     public void charge(int addPaintVolume) {
         this.paintVolume = this.paintVolume + addPaintVolume;
         System.out.println("Принтер пополнен на длину текста " + addPaintVolume + ". Сейчас краски в принтере: " + this.paintVolume);
